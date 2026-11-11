@@ -2,7 +2,7 @@
 
 Diseño de Software - Universidad Cooperativa de Colombia
 
-Integrantes: Felipe Alejandro Cerón Cifuentes (930013) - Santiago Campoverde
+Integrantes: Felipe Alejandro Cerón - Santiago Campoverde
 
 ## 1_Documento
 
