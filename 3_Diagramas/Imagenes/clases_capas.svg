@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1250" viewBox="0 0 1900 1250"><rect width="100%" height="100%" fill="white"/><rect x="38" y="976" width="1285.25" height="201" rx="10" fill="#F2ECF8" stroke="#8A6BB0" stroke-width="1.4"/>
+<text x="52" y="998" font-family="DejaVu Sans" font-size="14" text-anchor="start" font-weight="bold" font-style="normal" fill="#243443">model · Dominio (no es una capa de ejecución)</text>
+<rect x="18" y="726" width="1700.0" height="159" rx="10" fill="#FBF1E4" stroke="#B9853F" stroke-width="1.4"/>
+<text x="32" y="748" font-family="DejaVu Sans" font-size="14" text-anchor="start" font-weight="bold" font-style="normal" fill="#243443">repository · Acceso a datos</text>
+<rect x="18" y="436" width="308.79999999999995" height="181" rx="10" fill="#FBEDED" stroke="#B56A6A" stroke-width="1.4"/>
+<text x="32" y="458" font-family="DejaVu Sans" font-size="14" text-anchor="start" font-weight="bold" font-style="normal" fill="#243443">exception</text>
+<rect x="448" y="406" width="651.25" height="201" rx="10" fill="#EAF6EC" stroke="#5E9B67" stroke-width="1.4"/>
+<text x="462" y="428" font-family="DejaVu Sans" font-size="14" text-anchor="start" font-weight="bold" font-style="normal" fill="#243443">service · Negocio</text>
+<rect x="1308" y="36" width="404.75" height="636" rx="10" fill="#F3F3F3" stroke="#9A9A9A" stroke-width="1.4"/>
+<text x="1322" y="58" font-family="DejaVu Sans" font-size="14" text-anchor="start" font-weight="bold" font-style="normal" fill="#243443">dto</text>
+<rect x="18" y="36" width="911.25" height="339" rx="10" fill="#EAF2FB" stroke="#5B7FA6" stroke-width="1.4"/>
+<text x="32" y="58" font-family="DejaVu Sans" font-size="14" text-anchor="start" font-weight="bold" font-style="normal" fill="#243443">controller · Presentación</text>
+<rect x="300" y="70" width="607.25" height="111" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="300" y="70" width="607.25" height="44" rx="0" fill="#DCE6F2" stroke="#1F2933" stroke-width="0"/>
+<rect x="300" y="70" width="607.25" height="111" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="603.625" y="88" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«RestController»</text>
+<text x="603.625" y="105" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">PrestamoController</text>
+<polyline points="300,114 907.25,114" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="308" y="130" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- prestamoService: PrestamoService</text>
+<polyline points="300,139 907.25,139" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="308" y="155" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ registrarPrestamo(solicitud: PrestamoRequest): ResponseEntity&lt;PrestamoResponse&gt;</text>
+<text x="308" y="172" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ listarPrestamos(): ResponseEntity&lt;List&lt;PrestamoResponse&gt;&gt;</text>
+<rect x="40" y="250" width="426.0" height="103" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="40" y="250" width="426.0" height="44" rx="0" fill="#DCE6F2" stroke="#1F2933" stroke-width="0"/>
+<rect x="40" y="250" width="426.0" height="103" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="253.0" y="268" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«RestControllerAdvice»</text>
+<text x="253.0" y="285" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">ManejadorGlobalExcepciones</text>
+<polyline points="40,294 466.0,294" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="48" y="310" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ manejarNoEncontrado(ex): ResponseEntity&lt;ErrorResponse&gt;</text>
+<text x="48" y="327" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ manejarNoDisponible(ex): ResponseEntity&lt;ErrorResponse&gt;</text>
+<text x="48" y="344" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ manejarValidacion(ex): ResponseEntity&lt;ErrorResponse&gt;</text>
+<rect x="1330" y="70" width="237.5" height="86" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="1330" y="70" width="237.5" height="44" rx="0" fill="#E6E6E6" stroke="#1F2933" stroke-width="0"/>
+<rect x="1330" y="70" width="237.5" height="86" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="1448.75" y="88" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«record»</text>
+<text x="1448.75" y="105" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">PrestamoRequest</text>
+<polyline points="1330,114 1567.5,114" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="1338" y="130" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ estudianteId: Long {NotNull}</text>
+<text x="1338" y="147" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ libroId: Long {NotNull}</text>
+<rect x="1330" y="200" width="360.75" height="213" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="1330" y="200" width="360.75" height="44" rx="0" fill="#E6E6E6" stroke="#1F2933" stroke-width="0"/>
+<rect x="1330" y="200" width="360.75" height="213" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="1510.375" y="218" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«record»</text>
+<text x="1510.375" y="235" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">PrestamoResponse</text>
+<polyline points="1330,244 1690.75,244" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="1338" y="260" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ id: Long</text>
+<text x="1338" y="277" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ estudianteId: Long</text>
+<text x="1338" y="294" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ nombreEstudiante: String</text>
+<text x="1338" y="311" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ libroId: Long</text>
+<text x="1338" y="328" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ tituloLibro: String</text>
+<text x="1338" y="345" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ fechaPrestamo: LocalDate</text>
+<text x="1338" y="362" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ fechaDevolucion: LocalDate [0..1]</text>
+<text x="1338" y="379" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ activo: boolean</text>
+<polyline points="1330,388 1690.75,388" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="1338" y="404" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ desde(p: Prestamo): PrestamoResponse {static}</text>
+<rect x="1330" y="530" width="179.5" height="120" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="1330" y="530" width="179.5" height="44" rx="0" fill="#E6E6E6" stroke="#1F2933" stroke-width="0"/>
+<rect x="1330" y="530" width="179.5" height="120" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="1419.75" y="548" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«record»</text>
+<text x="1419.75" y="565" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">ErrorResponse</text>
+<polyline points="1330,574 1509.5,574" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="1338" y="590" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ estado: int</text>
+<text x="1338" y="607" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ error: String</text>
+<text x="1338" y="624" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ mensaje: String</text>
+<text x="1338" y="641" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ fecha: LocalDateTime</text>
+<rect x="470" y="440" width="607.25" height="145" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="470" y="440" width="607.25" height="44" rx="0" fill="#D7EDDA" stroke="#1F2933" stroke-width="0"/>
+<rect x="470" y="440" width="607.25" height="145" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="773.625" y="458" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«Service»</text>
+<text x="773.625" y="475" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">PrestamoService</text>
+<polyline points="470,484 1077.25,484" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="478" y="500" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- estudianteRepository: EstudianteRepository</text>
+<text x="478" y="517" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- libroRepository: LibroRepository</text>
+<text x="478" y="534" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- prestamoRepository: PrestamoRepository</text>
+<polyline points="470,543 1077.25,543" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="478" y="559" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ registrarPrestamo(solicitud: PrestamoRequest): PrestamoResponse {transaccional}</text>
+<text x="478" y="576" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ listarPrestamos(): List&lt;PrestamoResponse&gt;</text>
+<rect x="40" y="470" width="264.79999999999995" height="35" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="40" y="470" width="264.79999999999995" height="27" rx="0" fill="#F6DADA" stroke="#1F2933" stroke-width="0"/>
+<rect x="40" y="470" width="264.79999999999995" height="35" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="172.39999999999998" y="488" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">RecursoNoEncontradoException</text>
+<rect x="40" y="560" width="247.6" height="35" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="40" y="560" width="247.6" height="27" rx="0" fill="#F6DADA" stroke="#1F2933" stroke-width="0"/>
+<rect x="40" y="560" width="247.6" height="35" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="163.8" y="578" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">LibroNoDisponibleException</text>
+<rect x="40" y="760" width="324.5" height="69" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="40" y="760" width="324.5" height="44" rx="0" fill="#F5E2C8" stroke="#1F2933" stroke-width="0"/>
+<rect x="40" y="760" width="324.5" height="69" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="202.25" y="778" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«interface»</text>
+<text x="202.25" y="795" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">EstudianteRepository</text>
+<polyline points="40,804 364.5,804" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="48" y="820" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ findById(id: Long): Optional&lt;Estudiante&gt;</text>
+<rect x="470" y="760" width="491.25" height="103" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="470" y="760" width="491.25" height="44" rx="0" fill="#F5E2C8" stroke="#1F2933" stroke-width="0"/>
+<rect x="470" y="760" width="491.25" height="103" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="715.625" y="778" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«interface»</text>
+<text x="715.625" y="795" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">PrestamoRepository</text>
+<polyline points="470,804 961.25,804" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="478" y="820" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ existsByLibroIdAndFechaDevolucionIsNull(libroId: Long): boolean</text>
+<text x="478" y="837" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ save(prestamo: Prestamo): Prestamo</text>
+<text x="478" y="854" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ findAll(): List&lt;Prestamo&gt;</text>
+<rect x="1060" y="760" width="288.25" height="86" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="1060" y="760" width="288.25" height="44" rx="0" fill="#F5E2C8" stroke="#1F2933" stroke-width="0"/>
+<rect x="1060" y="760" width="288.25" height="86" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="1204.125" y="778" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«interface»</text>
+<text x="1204.125" y="795" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">LibroRepository</text>
+<polyline points="1060,804 1348.25,804" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="1068" y="820" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ findById(id: Long): Optional&lt;Libro&gt;</text>
+<text x="1068" y="837" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ save(libro: Libro): Libro</text>
+<rect x="1500" y="770" width="196.0" height="52" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="1500" y="770" width="196.0" height="44" rx="0" fill="#EEEEEE" stroke="#1F2933" stroke-width="0"/>
+<rect x="1500" y="770" width="196.0" height="52" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="1598.0" y="788" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«interface»</text>
+<text x="1598.0" y="805" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">JpaRepository&lt;T, ID&gt;</text>
+<rect x="60" y="1010" width="172.25" height="145" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="60" y="1010" width="172.25" height="44" rx="0" fill="#E4DAF0" stroke="#1F2933" stroke-width="0"/>
+<rect x="60" y="1010" width="172.25" height="145" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="146.125" y="1028" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«Entity»</text>
+<text x="146.125" y="1045" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">Estudiante</text>
+<polyline points="60,1054 232.25,1054" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="68" y="1070" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- id: Long</text>
+<text x="68" y="1087" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- nombre: String</text>
+<text x="68" y="1104" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- correo: String</text>
+<polyline points="60,1113 232.25,1113" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="68" y="1129" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ getId(): Long</text>
+<text x="68" y="1146" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ getNombre(): String</text>
+<rect x="560" y="1010" width="339.0" height="145" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="560" y="1010" width="339.0" height="44" rx="0" fill="#E4DAF0" stroke="#1F2933" stroke-width="0"/>
+<rect x="560" y="1010" width="339.0" height="145" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="729.5" y="1028" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«Entity»</text>
+<text x="729.5" y="1045" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">Prestamo</text>
+<polyline points="560,1054 899.0,1054" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="568" y="1070" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- id: Long</text>
+<text x="568" y="1087" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- fechaPrestamo: LocalDate</text>
+<text x="568" y="1104" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- fechaDevolucion: LocalDate [0..1]</text>
+<polyline points="560,1113 899.0,1113" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="568" y="1129" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ Prestamo(estudiante, libro, fechaPrestamo)</text>
+<text x="568" y="1146" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ estaActivo(): boolean</text>
+<rect x="1100" y="1010" width="201.25" height="145" rx="0" fill="white" stroke="#1F2933" stroke-width="1.3"/>
+<rect x="1100" y="1010" width="201.25" height="44" rx="0" fill="#E4DAF0" stroke="#1F2933" stroke-width="0"/>
+<rect x="1100" y="1010" width="201.25" height="145" rx="0" fill="none" stroke="#1F2933" stroke-width="1.3"/>
+<text x="1200.625" y="1028" font-family="DejaVu Sans" font-size="12" text-anchor="middle" font-weight="normal" font-style="italic" fill="#1F2933">«Entity»</text>
+<text x="1200.625" y="1045" font-family="DejaVu Sans" font-size="13.5" text-anchor="middle" font-weight="bold" font-style="normal" fill="#1F2933">Libro</text>
+<polyline points="1100,1054 1301.25,1054" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="1108" y="1070" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- id: Long</text>
+<text x="1108" y="1087" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- titulo: String</text>
+<text x="1108" y="1104" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">- disponible: boolean</text>
+<polyline points="1100,1113 1301.25,1113" fill="none" stroke="#1F2933" stroke-width="1"/>
+<text x="1108" y="1129" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ isDisponible(): boolean</text>
+<text x="1108" y="1146" font-family="DejaVu Sans" font-size="12.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">+ marcarPrestado(): void</text>
+<polyline points="730,181 730,440" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="737.0,427.0 730,440 723.0,427.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="733.0" y="420.5" width="12.4" height="16.5" fill="white" opacity="0.92"/>
+<text x="736" y="432" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">1</text>
+<rect x="733.0" y="299.0" width="102.6" height="16.5" fill="white" opacity="0.92"/>
+<text x="736" y="310.5" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">usa (inyección)</text>
+<polyline points="907.25,110 1330,110" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="1317.0,103.0 1330,110 1317.0,117.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="1099.5" y="92.5" width="38.2" height="16.5" fill="white" opacity="0.92"/>
+<text x="1118.625" y="104" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1F2933">«use»</text>
+<polyline points="907.25,170 1330,240" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="1318.3,231.0 1330,240 1316.0,244.8" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="1069.5" y="210.5" width="38.2" height="16.5" fill="white" opacity="0.92"/>
+<text x="1088.625" y="222" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1F2933">«use»</text>
+<polyline points="1077.25,470 1450,470 1450,413" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="1443.0,426.0 1450,413 1457.0,426.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="1371.2" y="452.5" width="57.5" height="16.5" fill="white" opacity="0.92"/>
+<text x="1400" y="464" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1F2933">«create»</text>
+<polyline points="466.0,333 1330,560" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="1319.2,549.9 1330,560 1315.6,563.5" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="971.2" y="426.5" width="57.5" height="16.5" fill="white" opacity="0.92"/>
+<text x="1000" y="438" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1F2933">«create»</text>
+<polyline points="470,510 334.79999999999995,510 334.79999999999995,487.5 304.79999999999995,487.5" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="317.8,494.5 304.79999999999995,487.5 317.8,480.5" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="470,550 347.6,550 347.6,577.5 287.6,577.5" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="300.6,584.5 287.6,577.5 300.6,570.5" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="399.3" y="492.5" width="51.1" height="16.5" fill="white" opacity="0.92"/>
+<text x="424.79999999999995" y="504" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1F2933">«throw»</text>
+<polyline points="100,353 100,470" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="107.0,457.0 100,470 93.0,457.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="101.0" y="381.5" width="38.2" height="16.5" fill="white" opacity="0.92"/>
+<text x="104" y="393" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">«use»</text>
+<polyline points="590,585 590,662.5 262.25,662.5 262.25,760" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="269.2,747.0 262.25,760 255.2,747.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="265.2" y="740.5" width="12.4" height="16.5" fill="white" opacity="0.92"/>
+<text x="268.25" y="752" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">1</text>
+<polyline points="820,585 820,672.5 670,672.5 670,760" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="677.0,747.0 670,760 663.0,747.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="673.0" y="740.5" width="12.4" height="16.5" fill="white" opacity="0.92"/>
+<text x="676" y="752" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">1</text>
+<polyline points="1050,585 1050,682.5 1204.125,682.5 1204.125,760" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="1211.1,747.0 1204.125,760 1197.1,747.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="1207.1" y="740.5" width="12.4" height="16.5" fill="white" opacity="0.92"/>
+<text x="1210.125" y="752" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">1</text>
+<polyline points="202.25,829 202.25,910 1578.0,910" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="835.625,863 835.625,910" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="1308.25,846 1308.25,910" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="1578.0,910 1578.0,822" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polygon points="1569.0,838.0 1578.0,822 1587.0,838.0" fill="white" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="1639.2" y="892.5" width="57.5" height="16.5" fill="white" opacity="0.92"/>
+<text x="1668.0" y="904" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1F2933">extiende</text>
+<polyline points="100,829 100,1010" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="107.0,997.0 100,1010 93.0,997.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="101.0" y="958.5" width="38.2" height="16.5" fill="white" opacity="0.92"/>
+<text x="104" y="970" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">«use»</text>
+<polyline points="610,863 610,1010" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="617.0,997.0 610,1010 603.0,997.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="611.0" y="958.5" width="38.2" height="16.5" fill="white" opacity="0.92"/>
+<text x="614" y="970" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">«use»</text>
+<polyline points="1150,846 1150,1010" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="1157.0,997.0 1150,1010 1143.0,997.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="1151.0" y="958.5" width="38.2" height="16.5" fill="white" opacity="0.92"/>
+<text x="1154" y="970" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">«use»</text>
+<polyline points="1017.25,585 1017.25,615 981.25,615 981.25,970 849.0,970 849.0,1010" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="856.0,997.0 849.0,1010 842.0,997.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="984.2" y="938.5" width="57.5" height="16.5" fill="white" opacity="0.92"/>
+<text x="987.25" y="950" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">«create»</text>
+<polyline points="560,1070 232.25,1070" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="245.2,1077.0 232.25,1070 245.2,1063.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="523.2" y="1050.5" width="31.8" height="16.5" fill="white" opacity="0.92"/>
+<text x="552" y="1062" font-family="DejaVu Sans" font-size="11.5" text-anchor="end" font-weight="normal" font-style="normal" fill="#1F2933">0..*</text>
+<rect x="237.2" y="1050.5" width="12.4" height="16.5" fill="white" opacity="0.92"/>
+<text x="240.25" y="1062" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">1</text>
+<rect x="354.5" y="1078.5" width="83.3" height="16.5" fill="white" opacity="0.92"/>
+<text x="396.125" y="1090" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1F2933">- estudiante</text>
+<polyline points="899.0,1070 1100,1070" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="1087.0,1063.0 1100,1070 1087.0,1077.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<rect x="904.0" y="1050.5" width="31.8" height="16.5" fill="white" opacity="0.92"/>
+<text x="907.0" y="1062" font-family="DejaVu Sans" font-size="11.5" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">0..*</text>
+<rect x="1082.6" y="1050.5" width="12.4" height="16.5" fill="white" opacity="0.92"/>
+<text x="1092" y="1062" font-family="DejaVu Sans" font-size="11.5" text-anchor="end" font-weight="normal" font-style="normal" fill="#1F2933">1</text>
+<rect x="974.0" y="1078.5" width="51.1" height="16.5" fill="white" opacity="0.92"/>
+<text x="999.5" y="1090" font-family="DejaVu Sans" font-size="11.5" text-anchor="middle" font-weight="normal" font-style="normal" fill="#1F2933">- libro</text>
+<rect x="1450" y="1040" width="410" height="150" rx="6" fill="#FAFAFA" stroke="#999999" stroke-width="1.3"/>
+<text x="1462" y="1062" font-family="DejaVu Sans" font-size="13" text-anchor="start" font-weight="bold" font-style="normal" fill="#1F2933">Convenciones</text>
+<polyline points="1464,1088 1534,1088" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polyline points="1521.0,1081.0 1534,1088 1521.0,1095.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<text x="1546" y="1092" font-family="DejaVu Sans" font-size="12" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">Asociación navegable (atributo)</text>
+<polyline points="1464,1118 1534,1118" fill="none" stroke="#2B3A4A" stroke-width="1.4" stroke-dasharray="7,5"/>
+<polyline points="1521.0,1111.0 1534,1118 1521.0,1125.0" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<text x="1546" y="1122" font-family="DejaVu Sans" font-size="12" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">Dependencia (uso puntual)</text>
+<polyline points="1464,1148 1534,1148" fill="none" stroke="#2B3A4A" stroke-width="1.4"/>
+<polygon points="1518.0,1139.0 1534,1148 1518.0,1157.0" fill="white" stroke="#2B3A4A" stroke-width="1.4"/>
+<text x="1546" y="1152" font-family="DejaVu Sans" font-size="12" text-anchor="start" font-weight="normal" font-style="normal" fill="#1F2933">Generalización entre interfaces</text>
+<text x="1464" y="1178" font-family="DejaVu Sans" font-size="11" text-anchor="start" font-weight="normal" font-style="italic" fill="#1F2933">Repository: implementación generada por Spring Data</text></svg>
